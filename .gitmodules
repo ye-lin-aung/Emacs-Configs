@@ -1,0 +1,21 @@
+[submodule "vendor/goto-chg"]
+	path = vendor/goto-chg
+	url = https://github.com/emacs-evil/goto-chg.git
+[submodule "vendor/evil"]
+	path = vendor/evil
+	url = https://github.com/emacs-evil/evil
+[submodule "vendor/evil-magit"]
+	path = vendor/evil-magit
+	url = https://github.com/emacs-evil/evil-magit.git
+[submodule "evil-leader"]
+	path = vendor/evil-leader
+	url = https://github.com/cofi/evil-leader.git
+[submodule "vendor/company-quickhelp"]
+	path = vendor/company-quickhelp
+	url = https://github.com/expez/company-quickhelp.git
+[submodule "vendor/company-dart"]
+	path = vendor/company-dart
+	url = https://github.com/sid-kurias/company-dart.git
+[submodule "vendor/quickrun"]
+	path = vendor/quickrun
+	url = ./vendor/quickrun/

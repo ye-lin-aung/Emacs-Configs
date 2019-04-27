@@ -1,0 +1,18 @@
+#+STARTUP: showall
+
+* Links
+  - [[www.google.com][Google]]
+  - [[github.com][Github]]
+  - [[http://www.google.com][Google]]
+
+* Lesson 1
+** Part 1
+  Introduction the series and setting up the package manager
+  - Show melpa
+  - set up melpa
+  - install package
+** Part 2
+** Seeing something is good
+
+* Lesson 2
+
