@@ -651,7 +651,20 @@ by Prelude.")
   (package-refresh-contents)
   (package-install 'dart-mode))
 
+(use-package theme-magic
+  :ensure t
+  :config
+  (require 'theme-magic)
+  (theme-magic-export-theme-mode))
+
+(require 'ewal)
+
 ;; Company-Dart
 (add-hook 'dart-mode-hook (lambda ()
- (set (make-local-variable 'company-backends)
-  '(company-dart (company-dabbrev company-yankpad)))))
+                            (set (make-local-variable 'company-backends)
+                                 '(company-dart (company-dabbrev company-yankpad)))))
+
+;; docker
+(use-package docker
+  :ensure t
+  :bind ("C-c d" . docker))
