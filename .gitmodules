@@ -19,3 +19,27 @@
 [submodule "vendor/quickrun"]
 	path = vendor/quickrun
 	url = ./vendor/quickrun/
+[submodule "reveal.js"]
+	path = reveal.js
+	url = https://github.com/hakimel/reveal.js.git
+[submodule "vendor/aweshell"]
+	path = vendor/aweshell
+	url = git@github.com:ye-lin-aung/aweshell.git
+[submodule "vendor/evil-collection"]
+	path = vendor/evil-collection
+	url = git@github.com:emacs-evil/evil-collection.git
+[submodule "vendor/font-lock-plus"]
+	path = vendor/font-lock-plus
+	url = git@github.com:emacsmirror/font-lock-plus.git
+[submodule "vendor/magit-popup"]
+	path = vendor/magit-popup
+	url = git@github.com:magit/magit-popup.git
+[submodule "vendor/org-reveal"]
+	path = vendor/org-reveal
+	url = git@github.com:yjwen/org-reveal.git
+[submodule "vendor/powerline"]
+	path = vendor/powerline
+	url = git@github.com:milkypostman/powerline.git
+[submodule "vendor/use-package"]
+	path = vendor/use-package
+	url = git@github.com:jwiegley/use-package.git
